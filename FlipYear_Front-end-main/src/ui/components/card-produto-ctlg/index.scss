@@ -1,0 +1,236 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: pointer;
+    background: linear-gradient(35deg, #ff0000, #00ff1b, #1800ff);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+
+    border-radius: 15px;
+    width: 250px;
+    height: 400px;
+
+    font-family: 'flipFont';
+    font-size: 20px;
+
+    margin: 25px;
+    color: white !important;
+    color: #252525;
+
+    .imgsProd {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        min-height: 200px;
+        max-height: 400px;
+        max-width: 200px;
+        
+        img{
+            object-fit: contain;
+            max-width: 150px;
+            min-width: 150px;
+        }
+
+        &:hover {
+            #ImgProduto {
+                display: none;
+                
+            }
+
+            #Img2Produto {
+                display: flex;
+                animation: HideReveal 0.7s linear;
+            }
+        }
+
+        
+        #ImgProduto {
+            transition: opacity 0.5s ease-in-out;
+               
+        }
+        
+        #Img2Produto {
+            opacity: 10;
+            transition: all 0.5s ease-in-out;
+            display: none;
+        }
+    }
+
+    @keyframes HideReveal {
+        from{
+            opacity: 0;
+        } to {
+            opacity: 1;
+        }
+    }
+
+
+    .card-prod-carrinho {
+        width: 40px;
+        height: 40px;
+
+    }
+
+
+
+    .menu-add-cart {
+
+        display: flex;
+        flex-direction: row;
+        margin-top: 14px;
+    }
+
+    .qtd-produtos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+
+        p {
+            font-size: 10px !important;
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+    }
+
+    .preco-produto-original {
+        text-decoration: line-through;
+        margin-top: 5px;
+        font-size: 10px !important;
+    }
+
+    #cinza-pequeno {
+        font-size: 8px;
+    }
+
+    #ImgProduto:hover {
+        cursor: pointer;
+    }
+
+    .desc-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 5px;
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+
+
+
+    .nm-produto {
+        text-align: center;
+        font-size: 14px;
+
+    }
+
+    .avaliacao-decimal {
+        font-size: 9px !important;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+    }
+
+    .linha {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+
+    }
+
+    .avaliacao-produto {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .estrelas-linha {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .estrelas:hover {
+        cursor: pointer;
+
+    }
+
+    .estrelas {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+
+        img {
+            width: 15px;
+            height: 27px;
+
+        }
+
+    }
+
+}
+
+.card:hover {
+    cursor: default;
+    position: relative;
+    bottom: 15px;
+    box-shadow: 5px 5px rgb(41, 41, 41);
+
+}
+
+@media (max-width: 768px) {}
+
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 81% 0%
+    }
+
+    50% {
+        background-position: 20% 100%
+    }
+
+    100% {
+        background-position: 81% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 81% 0%
+    }
+
+    50% {
+        background-position: 20% 100%
+    }
+
+    100% {
+        background-position: 81% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 81% 0%
+    }
+
+    50% {
+        background-position: 20% 100%
+    }
+
+    100% {
+        background-position: 81% 0%
+    }
+}

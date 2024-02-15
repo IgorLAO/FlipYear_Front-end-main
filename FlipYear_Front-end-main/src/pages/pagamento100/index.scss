@@ -1,0 +1,123 @@
+.container_pag100{
+    background-color: #081820;
+    height: 100vh;
+
+    .estado_pag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        padding-bottom: 100px;
+        .icons_pag {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 90%;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                color: #429B56;
+
+                img {
+                    width: 80px;
+                }
+            }
+        }
+
+        .pista {
+            background-image: url('../../ui/assets/images/progress_pag_assets/pista.png');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            background-color: #346856;
+            height: 50px;
+            width: 90%;
+            border-radius: 3px;
+        }
+    }
+
+    .container_pedido{
+        display: flex;
+        justify-content:center;
+        .pedido_concluido{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            color: #E0F8D0;
+            background-color: #122833;
+            border-radius: 10px;
+            width: 50%;
+            padding: 70px 0px;
+            .mensagem_concluido{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center ;
+                    justify-content: center;
+    
+                    img{
+                        width: 60px;
+                        margin-right: 20px;
+                    }   
+                }
+                #codigo_pedido{
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 30px;
+    
+                    h1{
+                        font-size: 29px;
+                    }
+                }
+            }
+        }
+        .opcoes_botoes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+    
+            padding: 20px 0px;
+            height: 17vh;
+            width: 100%;
+    
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                color: #88C070;
+                background-color: transparent;
+                border: 2px solid #88C070;
+                padding: 20px;
+                max-width: 40vh;
+                width: 100%;
+                cursor: pointer;
+            }
+            #navegar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                color: black;
+                background-color: #88C070;
+                border: none;
+                border-radius: 3px;
+                padding: 20px;
+                max-width: 40vh;
+                width: 100%;
+                cursor: pointer;
+            }    
+        }
+    }
+    
+}

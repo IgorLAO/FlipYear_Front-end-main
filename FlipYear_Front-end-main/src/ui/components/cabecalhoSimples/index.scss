@@ -1,0 +1,30 @@
+.cabecalho_vazio{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    background-color: #081820;
+    width: 100%;
+    padding: 15px 0px 100px 20px;
+
+    img{
+        width: 53px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+
+        line-height: 26px;
+        font-size: 13px;
+        padding: 3PX;
+        font-weight: 100;
+        
+        color: #E0F8D0;
+
+        h1{
+            font-weight: 500;
+        }
+    }
+}

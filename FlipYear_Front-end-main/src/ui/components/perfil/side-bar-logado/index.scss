@@ -1,0 +1,322 @@
+.MainSide {
+    .side-bar-logado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        justify-content: center;
+
+        background-color: #081820;
+        color: white;
+        min-height: 100%;
+        
+        animation: SlideKart 0.3s linear;
+        transition: all 0.3s ease-in-out;
+
+        top: 5px;
+        right: 0;
+        z-index: 2;
+        width: 23%;
+        margin: 30px;
+
+        .fechar-sb {
+            position: relative;
+            font-size: 18px;
+            bottom: 130px;
+            right: 100px;
+
+        }
+
+        .fechar-sb:hover {
+            cursor: pointer;
+        }
+
+        .foto {
+
+            border: 2px solid black;
+            border-radius: 300px;
+            width: 66px;
+
+            margin-bottom: 15px;
+
+
+        }
+
+        .foto img {
+
+            width: 62px;
+            height: 61px;
+
+
+        }
+
+        .linha-side-bar {
+
+            width: 100%;
+            height: 1px;
+            background-color: white;
+
+
+        }
+
+        .menu-side-bar {
+
+            width: 100%;
+
+
+        }
+
+        #editar-perfil:hover {
+            background-color: #88c070af;
+            color: black;
+
+        }
+
+        .item-side-bar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            padding: 20px 30px 20px 30px;
+
+            p {
+                font-size: 12px;
+                color: white;
+                margin-right: 55px;
+            }
+
+            img {
+                margin-right: 55px;
+            }
+
+        }
+
+        .lapis {
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .carrinho-side-bar {
+            width: 40px;
+            height: 40px;
+        }
+
+        .adm {
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .nome-side-bar {
+            color: white;
+            font-size: 16px;
+
+        }
+
+        .seta-baixo {
+            width: 17px;
+            height: 11px;
+
+        }
+
+        .seta-baixo:hover {
+            cursor: pointer;
+
+        }
+
+        .pfp-nome {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin-bottom: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+
+
+        .lista-pedidos {
+
+
+            background-color: #6E8D61;
+            display: flex;
+            flex-direction: column;
+
+
+
+        }
+
+        .pedido {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+
+
+        }
+
+        .pedido:hover {
+
+            background-color: rgb(220, 233, 220);
+            color: rgb(53, 51, 51);
+            cursor: pointer;
+
+            .fundo-atari {
+
+                background-color: #c0c2bf;
+
+            }
+
+        }
+
+        .Atari {
+
+
+            width: 60px;
+            height: 50px;
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        .status-sidebar {
+
+            width: 30px;
+            width: 30px;
+
+        }
+
+        .fundo-atari {
+
+            background-color: #E0F8CF;
+            border-radius: 10px;
+
+        }
+
+        .see-more {
+
+            text-align: right;
+            margin-top: 25px;
+            height: 100vh;
+
+            p {
+                color: black;
+            }
+
+        }
+
+        .logo-sb-pedidos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding-top: 75px;
+
+            img {
+
+                margin-bottom: 15px;
+
+            }
+
+
+            p {
+                color: white;
+                font-size: 10px;
+                text-align: center;
+                margin-bottom: 3px;
+
+            }
+        }
+
+        .adm-menu {
+            display: flex;
+            flex-direction: column;
+            background-color: #61818d34;
+            height: 100vh;
+
+            .rota-adm {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 10px 20px 10px 20px;
+
+                img {
+
+                    width: 50px;
+                    height: 40px;
+
+                }
+            }
+
+            .rota-adm:hover {
+                background-color: #36976277;
+                color: rgb(53, 51, 51);
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    #adm-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: sticky;
+        margin-top: 17px;
+
+
+        img {
+            width: 85px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .MainSide {
+
+        .side-bar-logado {
+            width: 100%;
+            margin: 0;
+
+            .fechar-sb {
+                bottom: 180px;
+                right: 235px;
+
+            }
+
+        }
+    }
+}
+
+@keyframes SlideKart {
+    from {
+        transform: translateX(100%);
+        height: 100%;
+    }
+
+    to {
+        transform: translateX(0%);
+        height: 100%;
+    }
+}

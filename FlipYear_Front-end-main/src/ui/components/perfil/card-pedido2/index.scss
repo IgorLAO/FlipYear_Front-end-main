@@ -1,0 +1,87 @@
+.comp-card-pedido{
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.card-pedido{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    padding: 10px 00px;
+    border: 3px solid #081820;
+    background: #E0F8CF;
+
+
+
+
+}
+
+.jogo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: 40px;
+    img{    
+        width: 46px;
+    }
+    p{
+
+        margin-left: 25px;
+
+    }
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+
+    p{
+        margin-left: 50px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+.comp-card-pedido p{
+
+    color: #346856;
+    font-size: 10px;
+
+
+}
+
+.bolinha {
+
+    margin-left: 45px;
+    
+
+
+}
+
+
+
+.bolinha p{
+
+    position: relative;
+    bottom: 23px;
+    left: 12px;
+
+    color:#E0F8CF;
+
+
+}

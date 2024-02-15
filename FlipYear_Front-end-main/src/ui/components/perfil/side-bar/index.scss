@@ -1,0 +1,180 @@
+
+.escurecer-fundo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    background: rgba(8, 24, 32, 0.644);
+    backdrop-filter: blur(10px);
+    
+}
+
+
+
+.barra-lateral {
+
+    background-color: #081820;
+    color: white;
+    min-height: 100%;
+
+    position: fixed;
+    top: 5px;
+    
+    right: 0;
+    z-index: 2;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .fechar-sb {
+
+        font-size: 18px;
+        position: relative;
+        bottom: 130px;
+        right: 100px;
+
+    }
+
+
+    .fechar-sb:hover {
+
+        cursor: pointer;
+
+    }
+
+    .fantasmas {
+
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 150px;
+
+    }
+
+    .fant-1 {
+
+        position: relative;
+        left: 40px;
+
+
+    }
+
+    .fant-2 {
+
+        position: relative;
+        right: 55px;
+
+        width: 54px;
+        height: 51px;
+
+    }
+
+    .fant-3 {
+
+        position: relative;
+        left: 45px;
+
+
+    }
+
+    .mensagem {
+
+        color: white;
+        font-size: 12px;
+
+        text-align: center;
+
+    }
+
+    .logo {
+
+        position: relative;
+        top: 150px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+
+            margin-bottom: 15px;
+
+        }
+
+
+        p {
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            margin-bottom: 3px;
+
+        }
+
+
+    }
+
+    .doisk {
+
+        font-size: 24px !important;
+        letter-spacing: 3.12px;
+        text-align: center;
+
+
+    }
+
+    .logar-op:hover {
+
+        cursor: pointer;
+
+
+    }
+
+    .cadastro-op:hover {
+
+        cursor: pointer;
+    }
+
+    .logar-op p {
+
+        color: white;
+        font-size: 10px;
+
+        position: relative;
+        top: 28px;
+        left: 43px;
+
+
+
+    }
+
+    .cadastro-op p {
+
+        font-size: 10px;
+
+        color: white;
+        position: relative;
+        top: 28px;
+        left: 25px;
+
+
+    }
+}
+
+
+@media (max-width: 550px) {
+    .barra-lateral {
+
+            width: 100%;
+
+            .fechar-sb {
+                bottom: 180px;
+                right: 235px;
+            }
+
+    }
+}

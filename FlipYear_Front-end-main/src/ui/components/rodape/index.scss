@@ -1,0 +1,188 @@
+
+.container_rodape{
+
+    font-family: fonte;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 40px 0px 0px 30px;
+
+    background-color: #081820;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .topicos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between ;
+        flex-wrap: wrap;
+
+        a:hover{
+
+            text-decoration: underline;
+
+        }
+
+        
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            
+            max-width: 260px;
+            width: 100%;
+            margin: 10px;
+
+        }
+        .contato{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            
+            background-color: #081820;
+
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                text-align: start;
+                
+                line-height: 20px;
+                max-width: 165px;
+                width: 100%;
+            
+                  img{
+                    width: 40px;
+                    padding-right: 13px;
+                    }
+            }
+        }
+        .formas_pagamento{
+            display: flex;
+
+            padding: 0px 25px;
+            max-width: 370px;   
+
+            .images_pagamento{
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    max-width: 200px;
+                    margin: 0px;
+                
+                    img{
+                        margin: 2px;
+                    }
+                    
+                }
+            }
+            .redes_sociais{
+                display: flex;
+                align-items: flex-start;
+                
+                max-width: 370px;
+                padding-top: 30px;
+                
+
+                div{
+                    display: flex;
+                    flex-direction: row;
+
+                    max-width: 200px;
+                    margin: 0px;
+
+                    img{
+                        height: 55px;
+                        margin: 2px;
+                    }
+                }
+            }
+        }
+    }
+    .cert_seguranca{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        flex-direction: column;
+        
+        img{
+            width: 100%;
+            max-width: 400px;
+        }
+        h1{
+            margin-bottom: 25px;
+        }
+        
+    }
+    
+    .copyright{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 60px 0px 0px 0px;
+
+        div{
+            padding: 1px;
+            width: 100%;
+            max-width: 173vh;
+
+            background-color: #9C9C9C;
+        }
+        p{
+            padding: 10px;
+            font-size: 10px;
+        }
+    }
+
+
+
+    
+    h1{
+        font-size: 16px;
+        margin-bottom: 20px;
+
+        color: #1A644E;
+    }
+    a{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 13px 0px 0px;
+
+        color: #9C9C9C;
+        cursor: pointer;
+    
+    }
+    p{
+        font-size: 15px;
+        font-weight: 400;
+
+        color: #9C9C9C;
+    }
+
+}
+@media (max-width: 768px) {
+    .container_rodape{
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .container_rodape{
+        width: 100%;
+        .cert_seguranca{
+            img{
+                margin-left: -20px;
+            }
+        }
+    }
+}
+
+
+

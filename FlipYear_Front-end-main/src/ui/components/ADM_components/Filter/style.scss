@@ -1,0 +1,38 @@
+.Filters {
+    display: flex;
+    border: #CDF1B5 solid;
+    color: #fff;
+    margin-bottom: 55px;
+    width: 90%;
+    
+
+    .Tipos {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        width: 50%;
+        max-width: 300%;
+        margin: 15px;
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 7px;
+            .option {
+                display: flex;
+                text-align: center;
+                border: #f7f8f6 solid;
+                background-color: transparent;
+                margin: 1px;
+                padding: 5px 15px;
+                border-radius: 15px;
+                max-width: 300px;
+
+            }
+            #SelectedOption{
+                border: #f7f8f6 solid;
+                background-color: rgb(0, 255, 128);
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+.Main_StatusDisplay {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+    .contentDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(31,158,78,1) 44%, rgba(35,158,83,1) 83%, rgba(76,153,130,1) 100%);
+        height: 500px;
+        max-width: 50%;
+        justify-content: space-between;
+        border-radius: 10px;
+
+        .carProgress {
+
+            padding: 15px;
+            width: 100%;
+
+           
+        }
+
+        header {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            padding: 10px 20px;
+
+            h4 {
+                width: 100%;
+            }
+        }
+
+        .btns {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            margin-top: 20px;
+
+            .button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 90px;
+                margin-bottom: 95   px;
+                margin-top: 15px;
+
+                a{
+                    z-index: 1;
+                }
+            }
+            button {
+                background-color: #40985e;
+                padding: 15px 20px;
+                margin: 10px;
+                max-width: 60%;
+                min-width: 40%;
+                border: #000 2px solid;
+                border-radius: 15px;
+                font: 'flipFont' 12px;
+                color: #fff;
+            }
+        }
+    }
+}

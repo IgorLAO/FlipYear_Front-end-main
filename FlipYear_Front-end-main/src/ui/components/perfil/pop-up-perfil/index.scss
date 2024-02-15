@@ -1,0 +1,200 @@
+.background-popup-user{
+    background-color: aqua;
+    width: 400px;
+    border-radius: 10px;
+
+    .pop-up-user{
+        width: 100%;
+        
+
+        .banner-gato{
+
+border-radius:  8px  8px 0 0 ;
+            width: 400px;
+        }
+
+        .pfp-likes{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            position: relative;
+            bottom: 55px;
+
+            .likes-popup-user{
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                margin-top: 65px;
+
+
+            }
+
+            p{
+
+                font-size: 8px;
+                
+
+            }
+
+            .bordapreta-pfp1{
+
+                border: 2px solid black;
+                border-radius: 90px;
+                width: 95px;
+                height: 95px;
+
+
+            }
+
+            .pfp-popup-user{
+
+                width: 90px;
+                height: 90px;
+
+            }
+
+            .likes-estrela{
+
+                width: 35px;
+                height: 35px;
+
+
+            }
+
+
+
+
+        }
+    
+    }
+
+    .nomeuser-popup-user{
+
+        font-size: 14px;
+        text-align: center;
+
+        margin-top: -50px;
+    }
+
+    .denuncia-coment-popup-user{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .denuncia-popup-user{
+
+            width: 15px;
+            height: 15px;
+
+            margin-left: 5px;
+            margin-bottom: 15px;
+
+
+        }
+
+
+    }
+
+    .outras-avaliacoes{
+
+        margin-top: 15px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+        }
+
+        .linha-branca-popup-user{
+
+            border: 1px solid white;
+            background-color: white;
+            width: 190px;
+
+            margin-top: -15px;
+            margin-bottom: 25px;
+
+
+        }
+        
+        .comentario-popup-user{
+    
+            background-color: #86C06C;
+            color: black;
+            width: 350px;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-bottom: 20px;
+
+            .pfp-info-popup-user{
+
+                display: flex;
+                flex-direction: row;
+
+                margin-left: 15px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                font-size: 10px;
+
+                
+                .coment-popup-user{
+
+                    margin-top: 15px;
+                    margin-left: 5px;
+
+
+                }
+                .bordapreta-pfp2{
+
+                    border: 1px solid black;
+                    border-radius: 50px;
+                    width: 48px;
+    
+
+                    img{
+
+                        width: 45px;
+                        height: 45px;
+
+                    }
+                }
+
+                .nome-tempo-popup-user{
+
+                    margin-top: 10px;
+                    margin-left: 5px;
+                    display: flex;
+                    flex-direction: row;
+
+
+                }
+
+                .tempo-popup-user{
+
+                    font-family: 'Inter';
+                    font-size: 8px;
+                    margin-left: 5px;
+
+
+                }
+
+
+            }
+    
+    
+        }
+    }
+    
+
+}

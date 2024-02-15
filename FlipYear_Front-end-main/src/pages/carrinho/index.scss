@@ -1,0 +1,90 @@
+.pag-carrinho{
+
+    background-color: #122833;
+
+    .lista-carrinho{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+
+
+    .pedidos{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .titulo{
+
+            display: flex;
+            flex-direction: column;
+            font-size: 24px;
+            color: white;
+
+            p{
+
+                margin-top: 35px;
+                text-align: center;
+
+
+            }
+
+        }
+
+        .lb-carrinho{
+
+            width: 300px;
+            background-color: white;
+            border: 2px solid;
+            
+
+        }
+
+    }
+
+
+    .vazio{
+
+        margin-top: 250px;
+        margin-bottom: 250px;
+        display: flex;
+        justify-content: center;
+
+        p{
+            color: white;
+            font-size: 24px;
+
+        }
+
+
+
+        .fantasma2{
+
+
+            position: relative;
+            bottom: 150px;
+
+
+        }
+
+        .fantasma1{
+
+            position: relative;
+            top: 80px;
+
+            width: 150px;
+
+
+
+        }
+
+
+    }
+
+
+
+}

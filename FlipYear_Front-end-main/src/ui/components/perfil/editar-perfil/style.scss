@@ -1,0 +1,174 @@
+.MainPerfil-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    min-height: 120vh;
+    width: 100%;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
+    .EditFrame {
+        padding: 5px 0;
+        background-color: rgba(55, 104, 55, 0.89);
+        width: 50%;
+        border-radius: 10px;
+        border: #000 solid;
+        padding: 5px;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+
+            span {
+                display: flex;
+                align-items: center;
+
+                a {
+                    margin: 5px;
+                    cursor: pointer;
+                    transition: all 0.1s ease;
+                    color: #000;
+
+                    &:hover {
+                        color: red;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .SaveBtn {
+                background-color: black;
+                color: #fff;
+                padding: 7px 20px;
+                border-radius: 12px;
+                cursor: pointer;
+
+                transition: all 0.5s ease;
+
+                &:hover {
+                    color: black;
+                    background-color: #fff;
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+
+            .ProfilePic {
+                input {
+                    visibility: hidden;
+                    position: absolute;
+                }
+
+                .banner {
+                    display: flex;
+                    align-items: center;
+                    height: 200px;
+                    background-size: cover;
+
+                }
+
+                .perfil {
+                    position: relative;
+                    top: -55px;
+
+                    background-color: transparent;
+
+                    .foto {
+                        width: 120px;
+                        min-height: 120px;
+                        height: 100%;
+                        border: 5px #fff solid;
+                        border-radius: 100%;
+                        object-fit: cover;
+                        max-width: 120px;
+                    }
+
+                    .blockCam {
+                        display: flex;
+                        position: relative;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #0000005b;
+                        padding: 37px 5px;
+                        height: 100%;
+                        width: 120px;
+                        top: -120px;
+                        border-radius: 100%;
+
+                        input {}
+
+                        img {
+                            width: 45px;
+                        }
+                    }
+                }
+
+            }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: -130px;
+                height: 5px;
+
+                input {
+                    padding: 15px;
+
+                }
+            }
+
+            .advancedOP {
+                display: flex;
+                flex-direction: column;
+                background-color: #8ca796;
+                padding: 15px;
+                border: #000 solid;
+                border-radius: 15px;
+
+                span {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 15px;
+                }
+
+                p {
+                    color: #757373;
+                    font-size: 9px;
+                }
+
+            }
+
+        }
+            .Av {
+                display: flex;
+                flex-direction: column;
+
+                .inputs2 {
+                    span {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 10px;
+                        border: green solid;padding: 5px;
+                        border-radius: 5px;
+                        input{
+                            background-color: transparent;
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                    .altSenha{
+                        background-color: rgb(16, 58, 45)727;
+                    }
+                }
+            }
+    }
+}

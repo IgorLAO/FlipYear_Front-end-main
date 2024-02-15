@@ -1,0 +1,88 @@
+.MainUsers_bar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    background-color: #1A644E;
+    padding: 15px 0;
+    width: 70px;
+    height: 100%;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+    margin-right: 0;
+
+
+    h4 {
+        line-height: 12px;
+        width: 210px;
+        margin-left: 40px;
+    }
+
+    &:hover {
+        width: 240px;
+    }
+
+    .btns {
+        height: 100%;
+
+        .MenuHeader {
+            display: flex;
+            color: #DEF8CD;
+            padding: 15px;
+
+            h1 {
+                margin-left: 25px;
+            }
+
+            img {
+                display: flex;
+                width: 35px;
+            }
+        }
+
+        .Options {
+            display: flex;
+            flex-direction: column;
+            transition: all 0.9s ease;
+            margin-bottom: 100px;
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: #fff;
+                letter-spacing: 1px;
+                padding: 10px 10px;
+
+                &:hover {
+                    background-color: #000;
+                }
+
+                img {
+                    width: 35px;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+        .LogOut {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            letter-spacing: 1px;
+            padding: 10px 10px;
+
+            &:hover {
+                background-color: #000;
+            }
+
+            img {
+                width: 35px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+.pag-status-pedido{
+
+
+    background-color: #1A644E;
+    height: 100%;
+
+
+
+
+}
+
+.retornar{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-left: 100px;
+    color: white;
+
+}
+
+.voltar{
+
+    text-decoration: underline;
+    margin-left: 5px;
+
+}
+
+.titulo-pedido{
+
+    color: white;
+    font-size: 24px;
+
+    margin-top: 65px;
+    margin-left: 100px;
+
+
+}
+
+.linha-branca{
+
+    width: 436px;
+    height: 5px;
+    background-color: white;
+    margin-left: 45px !important;
+
+}
+
+.status{
+
+    border: 3px solid #081820;
+    background: #40985E;
+    width: 859px;
+    color: white;
+
+
+}
+
+.card-status{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.card{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.codigo{
+
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+
+
+}
+
+
+
+.bullet-points{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-left: 100px;
+
+}
+
+.canto-tarja{
+
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+.tarja-preta{
+
+    width: 323.184px;
+    height: 35.282px;
+    flex-shrink: 0;
+    background: #000;
+
+    text-align: right;
+
+
+    margin-top: 25px;
+    margin-right: 140px;
+
+
+
+}
+
+.detalhes{
+
+    p{
+
+        text-decoration: underline;
+        margin-left: 100px;
+
+
+    }
+
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 60px;
+
+
+}
+
+.card-infos{
+
+    border-radius: 10px;
+    border: 2px solid #081820;
+    background: #86C06C;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    font-size: 16px;
+
+
+
+
+}
+
+.caminho-produto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+    svg{
+
+        margin-bottom: 140px;
+        margin-left: 70px;
+
+
+    }
+
+
+}
+
+.imagens{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1271px;
+
+    margin-bottom: 25px;
+
+
+}
+
+.barra{
+
+    display: flex;
+    flex-direction: row;
+
+
+
+
+
+}
+
+.losango{
+
+    width: 40px;
+    height: 40px;
+    border: 8px solid #86C06C;
+    transform: rotate(44.968deg);
+    flex-shrink: 0;
+
+    background-color: #8FDB6D;
+
+
+    position: relative;
+    bottom: 10px;
+    right: 4P0px;
+
+}
+

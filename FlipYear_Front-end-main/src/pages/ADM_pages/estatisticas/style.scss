@@ -1,0 +1,96 @@
+.ADM_Estatisticas {
+    @font-face {
+        font-family: 'flipFont';
+        src: url('../../../ui/assets/fonts/PressStart2P-Regular.ttf');
+    }
+
+    background-color: #081820;
+    
+
+    .s {
+        display: flex;
+        height: 200vh;
+        
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            width: 100%;
+            color: #fff;
+            background-color: #112d3bb4;
+
+            .Title {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                width: 100%;
+            }
+
+            .dataRange {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #113E37;
+                width: 100%;
+                padding: 15px;
+                border: solid #88C070;
+                border-radius: 5px;
+                margin: 15px;
+                margin-top: -15px;
+
+                span {
+                    margin: 20px;
+                }
+
+                button {
+                    margin-right: 45px;
+                    padding: 5px 25px;
+                    background-color: #538A7A;
+                    border: solid #88C070;
+                    border-radius: 5px;
+                    font: 10px "flipFont";
+                    color: #fff;
+                }
+
+                input {
+                    padding: 5px 10px;
+                    font: 8.5px "flipFont";
+                    color: #fff;
+                    background-color: #376953;
+                    border: solid #88C070 1px;
+                    letter-spacing: 1px;
+                    margin: 0 0 0 10px;
+                    border-radius: 3px;
+                }
+            }
+
+            section {
+                border: red solid;
+               
+                .dash {
+                    display: flex;
+                    height: 790px;
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 20px;
+                        justify-content: flex-end;
+                        align-items: center;
+
+                        span {
+                            background-color: red;
+                            height: 600px;
+                            width: 30px;
+                        }
+
+                        h2 {
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

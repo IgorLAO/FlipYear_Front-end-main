@@ -1,0 +1,117 @@
+.container-meupedido{
+    height: 100vh;
+    background-color: rgba(8, 24, 32, 1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 40px;
+    
+    #voltar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        font-size: 11px;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding: 20px 50px;
+        
+        text-decoration: underline;
+        cursor: pointer;
+
+        img{
+            width: 17px;
+        }
+    }
+    #titulo{
+        padding: 10px 50px;
+        text-decoration: underline;
+    }
+    .inform-pedidos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 60px;
+        #img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            gap: 25px;
+            padding: 40px 20px;
+            background-color: rgba(224, 248, 207, 1);
+            border-radius: 20px;
+            img{
+                width: 250px;
+                cursor: pointer;
+            }
+        }
+        .detalhes{
+            display: flex;
+            flex-direction: column;
+            align-items:flex-start;
+            justify-content: center;
+
+            width: 70%;
+            padding: 30px 40px 30px 100px;
+            background-color: rgba(18, 40, 51, 1);
+            h1{
+                margin-bottom: 30px;
+            }
+            div{
+                display: flex;
+                flex-direction: row;
+
+                width: 50%;
+                justify-content: left;
+                align-items: center;
+                
+                p{
+                    font-size: 12px;
+                    margin: 0px;
+                }
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .detalhes-produto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        h1{
+            width: 90%;
+            padding-bottom: 30px;
+        }
+        .status-produto{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            width: 90%;
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 10px;
+
+                font-weight: bold;
+                font-size: 12px;
+                color: black;
+                background-color: rgba(134, 192, 108, 1);
+                border-radius: 10px;
+            }
+        }
+    }
+}

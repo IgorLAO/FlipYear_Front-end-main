@@ -1,0 +1,99 @@
+.Main_Report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: black;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
+    .PopUp {
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        width: 55%;
+        border-bottom: solid #000;
+
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: solid #000;
+            padding: 10px 10px 10px 10px;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: black;
+                font-size: 20px;
+                margin-right: 20px;
+
+                a {
+                    padding: 9px 7px 7px 10px;
+                    transition: background-color 0.3s;
+                    border-radius: 100%;
+
+                    &:hover {
+                        background-color: #00000025;
+                    }
+                }
+            }
+        }
+
+        .Title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+
+
+            .option {
+                display: flex;
+                padding: 10px 45px;
+                justify-content: space-between;
+                width: 100%;
+
+                h4 {
+                    font-size: 15px;
+                    margin: 7px;
+                }
+
+                a {
+                    font-size: 12px;
+                    color: #000000a8;
+                }
+
+                input {
+
+                }
+            }
+        }
+
+    }
+    .Btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-shadow: rgba(101, 119, 134, 0.2) 0px 0px 7px, rgba(101, 119, 134, 0.15) 0px 1px 3px 1px;
+
+        button {
+            border-radius: 5px;
+            padding: 10px 70px;
+            border: none;
+            background-color: greenyellow;
+        }
+    }
+
+}

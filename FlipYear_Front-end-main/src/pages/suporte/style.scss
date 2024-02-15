@@ -1,0 +1,109 @@
+.Main_suporte {
+    height: 100vh;
+    background-color: #081820;
+
+    header {
+        display: flex;
+        align-items: center;
+        background-color: rgb(128, 150, 150);
+        height: 40%;
+
+        justify-content: space-evenly;
+
+        .Texts {
+            width: 900px;
+
+            h4 {
+                font-size: 45px;
+                width: 200px;
+            }
+
+            a {
+                font-size: 17px;
+            }
+
+        }
+
+        img {
+            width: 20%;
+            transition: all 200ms ease-in-out;
+
+            &:hover {
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        margin-top: 50px;
+
+        .optBlock {
+            width: 50%;
+            margin-top: -20px;
+            
+
+            h4 {
+                font-size: 25px;
+                margin-left: 20px;
+            }
+            
+            .btns {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 25px;
+                color: #000;
+                background-color: #0e2c3b;
+                border-radius: 15px;
+                margin: 10px;
+                .opt {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: end;
+                    width: 400px;
+                    padding: 25px;
+                    margin: 10px;
+                    cursor: pointer;
+
+                    background-image: url('../../ui/assets/images/suporte/block.svg');
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+
+                    a {
+                        z-index: 2;
+                        font-size: 20px;
+                    }
+                    
+                    &::before {
+                        position: absolute;
+                        content: "";
+                        top: 0;
+                        right: 0;
+                        left: 0px;
+
+                        width: 100%;
+                        height: 100%;
+                        background-image: url('../../ui/assets/images/suporte/blockGreen.svg');
+                        background-size: contain;
+                        background-position: 1px;
+                        background-repeat: no-repeat;
+                        transform: scaleX(0);
+                        transition: transform 0.3s ease;
+                    }
+                    
+                    &:hover::before {
+                        transform: scaleX(1);
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

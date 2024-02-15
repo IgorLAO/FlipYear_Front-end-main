@@ -1,0 +1,331 @@
+.container_pag25{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+
+    background-color: #081820;
+
+    .modos_pag{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .estado_pag{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+        max-width: 90%;
+        padding: 0px 0px 100px 0px;
+        
+        .icons_pag{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:space-between;
+            
+            width: 100%;
+            color: #429B56;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 15px;
+            }
+
+            img {
+                width: 55px;
+            }
+
+        }
+        .pista {
+            background-image: url('../../ui/assets/images/progress_pag_assets/pista.png');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            background-color: #346856;
+            
+            height: 50px;
+            width: 100%;
+            border-radius: 3px;
+        }
+    }
+        .titulo_carrinho{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            
+            padding: 20px 40px;
+            width: 100%;
+            
+            div{
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: space-between;
+            
+            font-size: 23px;
+            color: #429B56;
+            
+
+
+            img{
+                width: 60px
+            }
+            }
+            
+    }
+
+    .finalizar-produtos{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 20px 250px 30px;
+        
+        gap: 50px;
+        
+        width: 100%;
+        
+        align-items: center;
+        justify-content: center;
+        .inform_prod{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+        
+            @media  (max-width: 758px) {
+                justify-content: center;
+                
+            }
+
+
+            color: #ffff;
+            width: 100%;
+           
+            .container_lista{
+                display: flex;
+                flex-direction: column;
+                background-color: #346856;
+
+                padding:    10px 0px;
+                
+                @media (max-width: 758px){
+                    max-width: 341px;
+                }
+                .lista_produtos{
+
+                    .cabecalho_prod{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        color: black;
+                        
+
+                        div{
+                            display: flex;
+                            flex-direction: row;
+                            gap: 30px;
+                        }
+                        table{
+                            
+                            
+                            width: 100%;
+                        }
+                        thead{
+                            width: 100%;
+                            display: flex;
+                            align-items:flex-start;
+                            border-bottom: 1px solid #B5FFCE;
+                            align-items: center;
+
+                            
+                            tr{
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-between;                                
+
+                                padding: 10px;
+                            div{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                flex-direction: row;
+
+                                max-width: 215px;
+                                width: 100%;
+                                gap: 60px;
+                      
+
+                                @media (max-width: 450px){
+                                    gap: 40px;
+                                }
+                            }                          
+                          }
+                        }
+                        tbody{
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            color: #fff;
+                            padding: 20PX 10PX;
+                            border-bottom: 1px solid #B5FFCE;
+
+                            div{
+                                max-width: 100%;
+                      
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            tr{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center; 
+                                width: 100%;
+
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .resumo_pedido{
+            width: 100%;
+            max-width: 60vh;
+            
+            .valores_pedido{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                background-color: #346856;
+                font-size: 24px;
+                color: #ffff;
+            
+            .titulo_resumo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                width: 100%;
+                
+            p{
+                padding: 20px 10px;
+            }
+            }
+            .dados_pedido{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+                width: 100%;
+                padding: 25px 17px;
+                div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    
+                    font-size: 12px;
+                    padding: 8px 0px;
+                }
+            }
+            .total_pedido{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+    
+                width: 100%;
+                background-color: #88C070;
+                color: black;
+                font-size: 20px;
+                padding: 20px 5px;
+            }
+            .cupom_desconto{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+    
+                margin: 20px 0px;
+                font-size: 13px;
+                
+                width: 90%;
+    
+                a{
+                    background-color: black;
+                    color: #ffff;
+                    border: none;
+                    padding: 14px;
+                }
+                input{
+                    font-family: "flipFont";
+                    padding: 5px;
+                    font-size: 11px;    
+                    outline: none;
+                    max-width: 30vh;
+                    height: 40px;
+                    border: none;
+                }
+            }
+            }
+            .finalizar{            
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+    
+                padding: 15px 0px;
+                gap: 18px;
+                color: #ffff;
+                font-size: 18px;
+                background-color: #20B72F;
+                margin-top: 20px;
+                cursor: pointer;
+                
+                img{
+                    width: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:760px){
+    .container_pag25{
+        .estado_pag{
+            .icons_pag{
+                div{
+                    font-size: 8px;
+                    img{
+                        width: 50px;
+                    }
+                }
+            }
+        }
+        .titulo_carrinho{
+            div{
+                font-size: 15px;
+            }
+            
+        }
+        .finalizar-produtos{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+

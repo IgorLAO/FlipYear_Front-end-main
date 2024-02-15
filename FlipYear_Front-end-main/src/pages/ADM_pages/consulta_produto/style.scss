@@ -1,0 +1,107 @@
+.ADM_usersConsulta {
+    background-color: #081820;
+
+    .s {
+        display: flex;
+        height: 100vh;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            width: 100%;
+            background-color: #081820;
+
+            h1 {
+                color: #fff;
+            }
+
+            .searchBox {
+                display: flex;
+                align-items: center;
+                margin: 10px 0 50px 0;
+                border: aliceblue solid;
+                border-radius: 50px;
+                padding: 5px 15px;
+
+                img {
+                    width: 30px;
+
+
+                }
+
+                input {
+                    padding: 8px;
+                    width: 550px;
+                    background-color: transparent;
+                    border: none;
+                    color: #fff;
+                    outline: none;
+                }
+            }
+
+
+
+            table {
+                border-collapse: separate;
+                border-spacing: 0px;
+                border: #CDF1B5 solid 1px;
+                width: 76%;
+
+
+            }
+
+
+
+            td,
+            th {
+                text-align: center;
+                padding: 10px 10px;
+                border: #CDF1B5 solid 1px;
+                color: aliceblue;
+                letter-spacing: 0.5px;
+                font-size: 8px;
+
+            }
+
+            td:last-child {
+                span {
+                    justify-content: space-between;
+                    padding: 0 5px;
+                }
+
+                #pen {
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.4);
+                    }
+                }
+
+                #x {
+                    transition: all 0.2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.4);
+                        color: red;
+                    }
+                }
+            }
+
+            tr:hover i,
+            button {
+                display: flex;
+                flex-direction: row;
+            }
+
+
+
+
+
+
+        }
+    }
+}

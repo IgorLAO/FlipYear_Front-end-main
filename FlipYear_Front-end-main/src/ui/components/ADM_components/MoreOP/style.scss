@@ -1,0 +1,33 @@
+.Main_MoreOP {
+    position: absolute;
+    background-color: green;
+    padding: 5px;
+    width: 5px;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    animation: slide 0.1s linear;
+    &:hover {
+        width: 100px;
+    }
+
+    div {
+        padding: 5px;
+        width: 100px;
+
+        &:hover {
+            background-color: aliceblue;
+            color: black;
+            cursor: pointer;
+        }
+    }
+
+    @keyframes slide {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100px;
+        }
+    }
+}

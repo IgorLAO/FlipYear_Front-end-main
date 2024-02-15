@@ -1,0 +1,31 @@
+.products {
+  width: 100%;
+
+  .swiper {
+    width: 100%;
+  }
+
+  .swiper-button-prev {
+    color: rgb(32, 218, 88);
+    font-weight: 1000;
+    opacity: 1;
+  }
+
+  .swiper-button-next {
+    color: rgb(32, 218, 88);
+    font-weight: 1000;
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .swiper-button-next:hover {
+    color: rgb(84, 197, 118);
+  }
+
+  .swiper-slide {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}

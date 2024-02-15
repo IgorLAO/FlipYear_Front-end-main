@@ -1,0 +1,329 @@
+.tudo{
+    display: flex;
+    justify-content: center;
+    background-color: #081820;
+}
+.container_pag75 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 35px 180px 35px;
+
+
+    .estado_pag {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        max-width: 150vh;
+
+        .icons_pag {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 90%;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                color: #429B56;
+
+                img {
+                    width: 80px;
+                }
+            }
+        }
+
+        .pista {
+            background-image: url('../../ui/assets/images/progress_pag_assets/pista.png');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            background-color: #346856;
+            height: 50px;
+            width: 90%;
+            border-radius: 3px;
+        }
+    }
+
+    .titulo_infom_pedidos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        width: 100%;
+        font-size: 24px;
+        color: #429B56;
+        margin: 80px 0px 50px 0px;
+
+        img {
+            margin: 0px 20px 0px 0px;
+        }
+    }
+
+    .dados_produtos {
+        
+        padding: 10px;
+        width: 100%;
+        max-width: 103vh;
+    }
+
+    .dados_lista_resumos {
+        display: flex;
+        flex-direction: row;
+
+
+        width: 100%;
+
+        @media(max-width:864px){
+                flex-direction: column;
+        }
+
+        .dados_pessoais_pag75 {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            
+            padding: 90px 18px;
+            margin: 0px 0px 30px 0px;
+            background-color: #40985d4f;
+            width: 100%;
+
+            .coluna_dados {
+                margin: 0px 30px;
+
+                div {
+                    line-height: 25px;
+
+                    p {
+                        font-size: 9px;
+                    }
+
+                }
+
+                h1 {
+                    font-size: 17px;
+                    color: #62BE82;
+                }
+
+                p {
+                    color: #fff;
+                }
+
+                .dados_inform {
+                    padding: 55px 0px 0px 0px;
+
+                    div {
+                        display: flex;
+                        flex-direction: row;
+
+                        padding: 10px 0px 0px 0px;
+
+                        h1 {
+                            font-size: 12px
+                        }
+
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .lista_produtos75 {
+            display: flex;
+            flex-direction: column;
+
+            border-radius: 5px;
+            height: 25vh;
+            color: #fff;
+            padding: 10px;
+            background-color: #17393B;
+
+            .titulo_pag75 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                max-width: 55%;
+
+                p {
+                    font-size: 23px;
+                    color: #429B56;
+                }
+
+                img {
+                    width: 60px;
+                }
+
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+
+            .produtos75 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+
+                font-size: 11px;
+
+
+                div {
+
+                    max-width: 50vh;
+                    line-height: 17px;
+
+                    img {
+                        width: 100px;
+                        padding: 0px 20px 0px 0px;
+                    }
+                }
+
+                .qtd_preco75 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+
+                    height: 100px;
+                    max-width: 23%;
+                    width: 100%;
+
+                    div {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        line-height: 40px;
+
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .resumo_pedido {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            color: white;
+            padding: 10px 0px;
+            height: 49vh;
+            max-width: 32vh;
+            width: 100%;
+
+            @media(max-width:864px){
+                max-width: 100%;
+                width: 100%;
+            }
+            .valores_pedido {
+
+                background-color: #40985d4f;
+                display: flex;
+                flex-direction: column;
+                padding: 20px 0px;
+
+                max-width: 900px;
+                width: 100%;
+
+                .titulo_resumo {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    font-size: 24px;
+
+                    div {
+                        background-color: rgba(0, 0, 0, 0.548);
+                        height: 2px;
+                        width: 95%;
+                        margin-top: 20px;
+
+                    }
+                }
+
+                .dados_pedido {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    font-size: 10px;
+                    width: 100%;
+                    padding: 20px 12px;
+
+                    div {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px 0px;
+                        width: 100%;
+                        
+                    }
+                }
+
+                .total_pedido {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    color: black;
+                    background-color: #87c06c80;
+                    font-size: 16px;    
+                    padding: 20px 12px;
+
+                }
+            }
+
+            .finalizar {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 14px;
+                color: black;
+                border-radius: 2px;
+                padding: 10px 0px;
+                margin-top: 15px;
+                width: 100%;
+                background-color: #88C070;
+                cursor: pointer;                
+                img {
+                    margin-right: 18px;
+                }
+            }
+            .finalizar:hover{
+                background-color: #a3ca92;
+                transition: 0.4s;
+            }
+        }
+
+    }
+
+}
+
+
